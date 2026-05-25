@@ -1,24 +1,19 @@
 # Top Homepage Carousel
 
-Place top carousel images in this folder.
+This folder stores the image assets used by the top carousel on the home page.
 
-Use numeric file names in display order:
+Current files in this folder:
 
-- `1.png`
-- `2.png`
+- `1.jpg`
+- `2.jpg`
 - `3.png`
-- `4.png`
+- `4.jpg`
+- `5.jpg`
+- `6.jpg`
+- `7.jpg`
+- `8.jpg`
+- `config.js`
 
-The homepage top carousel currently uses:
+The carousel data is defined in `config.js`. Each item controls the banner title, subtitle, detail text, image path, and H5 URL.
 
-`/assets/home/banners/top/1.png`
-
-`/assets/home/banners/top/2.png`
-
-`/assets/home/banners/top/3.png`
-
-When adding more images later, keep numbering them in order and add the matching item in `config.js`.
-
-Manage each image's title, subtitle, detail, and H5 URL in:
-
-`/assets/home/banners/top/config.js`
+When adding, replacing, or renaming banner images, keep the file names in sync with `config.js` so the carousel continues to load the correct asset.
